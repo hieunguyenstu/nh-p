@@ -1,0 +1,112 @@
+import sys
+
+# print("Hello World")
+
+print(sys.version)
+
+# if 5 > 2:
+# 	print("Five is greater than two!")
+# print("Five is greater than two")
+
+# Đây là comment
+
+"""
+Còn đây là nhiều
+dòng comment 
+có thể viết nhiều 
+dòng trong này
+"""
+
+# Tạo(create) và cấp(assign) giá trị(value) cho biên(variable)
+# Không cần khai báo(declared) kiểu dữ liệu (data type)
+# x = 24			# x không cần khai báo int
+# y = "Hieu"		# y không cần khai báo string
+
+#Nếu muốn chọn kiểu dự liệu cho biến, sử dụng ép kiểu(casting)
+# a = str(3) 		# x sẽ là kí tự '3'
+# b = int(3)		# y sẽ là số 3
+# c = float(3)	# z sẽ là số thập phân 3.0
+
+# print(type(a))	# lấy kiểu dữ liệu(data type) của biến(variable) 
+# print(type(b))	# bằng hàm type()
+# print(type(c))
+
+# dùng nháy đơn(single quotes) hay nháy kép(double quotes)
+# x = "hieu"
+# # giống nhau 
+# y = 'hieu'
+
+# Tên biến phân biệt chữ hoa chữ thường (case-sensitive)
+# a = 4
+# A = "Sally"
+#--------------------Tên biến------------------------------
+"""
+Một biến có thể có tên ngắn (vd x hoặc y) và nhiều hơn để mô tả
+tên biến(age, carname, total_volume). 
+ Lưu ý khi đặt tên biến trong Python:
+ -	Tên một biến bắt đầu bằng một kí tự hoặc dấu gạch dưới(underscore character)
+ - 	Tên biến không bắt đầu với một số
+ -	Tên biến có thể chứa các kí tự chữ số (alpha-numeric characters)
+và underscores(A-z, 0-9, and _ )
+ -	Các trường hợp đặc biệt(case-sensitive) ví dụ: age, Age và AGE
+ là 3 biến khác nhau
+ -	Tên biến không thể là từ khóa Python(Python keywords)
+ - 	Tên biến có khi nhiều hơn một tù gây khó đọc nên vài cách 
+ giúp dễ đọc
+ 		+ Camel Case(trường hợp lạc đà): ngoại trừ từ đầu tiên, 
+ 		bắt đầu viết hoa các từ sau: myVariableName = "John"
+		+ Pascal Case: viết hoa chữ cái đầu mỗi từ:
+		 MyVariableName = "Hieu"
+		+ Snake Case: mỗi từ phân cách bằng dấu gạch 
+		dưới: my_variable_name = "Hieu"
+
+"""
+#----------------Variables--------------------------
+# Gán(assign) nhiều giá trị(multiple variables)
+# x, y, z = "Dinh", "Minh", "Linh"
+# print(x)
+# print(y)
+# print(z)
+
+# Assign one value to multiple variables
+# x = y = z = "Linh"
+# print(x)
+# print(y)
+# print(z)
+
+# Xuất (out) giá trị bằng hàm print()
+# Output multiple variables, separated by a comma
+# x = "Python "
+# y = "is "
+# z = "awesome "
+# # print(x , y , z)
+# print(x + y + z) # Notice the space character after
+#"Python ", without them the result would be "Pythonisawesome"
+
+
+# For numbers, the operator works as a mathematical operator
+# x = 5
+# y = 10
+# print(x + y)
+
+# When combine a string and a number with the operator,it will give an error
+# The best way to output multiple variables in the
+#print() function is to separate them with commas, which even support different data types
+# x = 5
+# y = "Hieu"
+# print(x , y)
+
+#Global Variables(Biến toàn cục)
+# Các biến(Variables) được tạo(created) ngoài hàm(functions) là biên toàn cục(global variables)
+#Bất cứ ai cũng có thể dùng biên toàn cục(Global variables can be used by everyone, both inside of function and outside)
+#cả trong và ngoài hàm(both inside of functions and outside)
+#Tạo một biến bên ngoài hàm và sử dụng biến(create a variable outside of a function, and use it inside the function)
+
+# x = "awesome" 
+
+# def myfunc():
+# 	print("Python is " + x)
+
+# myfunc()
+
+#Nếu tạo một biến trùng tên với biến trong hàm,
